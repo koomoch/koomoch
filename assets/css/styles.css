@@ -365,11 +365,23 @@ span.highlight:hover {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/hero-1.jpg");
+  background-image: url("../images/splash1.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.hero-carousel .carousel-inner .item-1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,#000,#000);
+  opacity: .45; 
+  z-index: -1;
 }
 
 .hero-carousel .carousel-inner .item-2 {
@@ -1198,4 +1210,3 @@ form.contactform textarea {
 .cf:after {
   clear: both;
 }
-
