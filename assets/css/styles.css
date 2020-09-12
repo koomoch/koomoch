@@ -1210,3 +1210,61 @@ form.contactform textarea {
 .cf:after {
   clear: both;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropdown-link {
+  color: #000;
+  display: block;
+  margin-top: 5px;
+}
+
+.dropdown .dropdown-link:hover {
+  font-weight: 700;
+}
+
+.button-sec {
+  background-color: #555555; /* Green */
+  border-radius: 3px;
+  color: white !important;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button-sec:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+}
+
+.team-member {
+  margin: 20px 0 20px 0;
+}
+
+.team-member p {
+  margin: 5px 0 5px 0;
+}
+
+.team-member .name {
+  font-weight: 700;
+  font-size: 20px;
+}
