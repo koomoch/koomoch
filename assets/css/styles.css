@@ -365,14 +365,18 @@ span.highlight:hover {
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/splash1.jpg");
+  background: url(../images/splash1.jpg);
+  background-position: left top;
+  background-repeat: repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.hero-carousel .carousel-inner .item-1:before {
+.hero-carousel .carousel-inner .item-1:before,
+.hero-carousel .carousel-inner .item-3:before
+ {
   content: '';
   position: absolute;
   top: 0;
@@ -393,7 +397,7 @@ span.highlight:hover {
 }
 
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url("../images/hero-3.jpg");
+  background-image: url("../images/hero-4-flipped.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -482,7 +486,7 @@ span.highlight:hover {
 }
 
 .technologies .list-inline-item {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .technologies .list-inline-item:last-child {
